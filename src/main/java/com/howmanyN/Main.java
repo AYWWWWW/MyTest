@@ -1,4 +1,4 @@
-package com.howmany2;
+package com.howmanyN;
 
 
 /**
