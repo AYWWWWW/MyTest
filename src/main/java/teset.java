@@ -7,8 +7,9 @@ import java.util.List;
  */
 public class teset {
 	public static void main(String[] args) throws InterruptedException {
-		int a = 1;
+		int a = '￣';
 		int b = 2;
+		System.out.println(a);
 		System.out.println(calc(a, b));
 		double c = 1;
 		double d = 2;

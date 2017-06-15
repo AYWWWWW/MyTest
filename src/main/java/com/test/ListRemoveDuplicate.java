@@ -2,6 +2,7 @@ package com.test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @Author OneAPM
@@ -12,7 +13,7 @@ public class ListRemoveDuplicate {
 	public static void main(String[] args) {
 		List<String> oriList = new ArrayList<>();
 		List<String> tempList = new ArrayList<>();
-		List<String> finalList = new ArrayList<>();
+		List<String> finalList;
 		oriList.add("127.0.0.1");
 		oriList.add("127.0.0.2");
 		oriList.add("127.0.0.2");
@@ -27,5 +28,13 @@ public class ListRemoveDuplicate {
 		}
 		finalList = tempList;
 		System.out.println(finalList);
-	}
+		//remove within foreach!!
+        //throws ConcurrentModificationException
+        for (String s : finalList) {
+            if (Objects.equals(s, "127.0.0.2")) {
+                finalList.remove(s);
+            }
+        }
+        System.out.println(finalList);
+    }
 }
