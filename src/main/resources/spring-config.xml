@@ -12,8 +12,8 @@
            http://code.dianping.com/schema/crane http://code.dianping.com/schema/crane/crane-1.0.xsd">
 
     <context:annotation-config/>
-    <context:component-scan base-package="com.meituan"/>
+    <context:component-scan base-package="com.mt"/>
 
-    <import resource="meituan/spring/initbean/initbean.xml"></import>
+    <import resource="mt/spring/initbean/initbean.xml"></import>
 
 </beans>

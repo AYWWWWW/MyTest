@@ -1,4 +1,4 @@
-package com.meituan.aop;
+package com.mt.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -16,7 +16,7 @@ public class MonitorAspect {
     @Autowired
     private MonitorModel monitorModel;
 
-    @Pointcut("execution(* com.meituan.aop.*.foo(..))")
+    @Pointcut("execution(* com.mt.aop.*.foo(..))")
     public void pointcut() {
     }
 

@@ -13,7 +13,7 @@
                         http://www.springframework.org/schema/mvc   
                         http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
                          ">
-    <bean id="initSequenceBean" class="com.meituan.spring.initbean.InitSequenceBean"
+    <bean id="initSequenceBean" class="com.mt.spring.initbean.InitSequenceBean"
         init-method="initMethod">
         <property name="properties" value="true"></property>
     </bean>

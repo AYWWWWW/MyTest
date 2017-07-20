@@ -1,4 +1,4 @@
-package com.meituan.spring.initbean;
+package com.mt.spring.initbean;
 
 import javax.annotation.PostConstruct;
 

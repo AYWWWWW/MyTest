@@ -1,4 +1,4 @@
-package com.meituan.tpxx;
+package com.mt.tpxx;
 
 import java.security.SecureRandom;
 import java.util.ArrayList;
@@ -8,10 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import com.meituan.spring.initbean.InitSequenceBean;
-import com.meituan.tpxx.heap.FixedSizePriorityQueue;
+import com.mt.tpxx.heap.FixedSizePriorityQueue;
 
 /**
  * created by anyanwen on 2017/7/14.

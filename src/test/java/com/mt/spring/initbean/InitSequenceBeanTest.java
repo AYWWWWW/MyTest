@@ -1,4 +1,4 @@
-package com.meituan.spring.initbean;
+package com.mt.spring.initbean;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
