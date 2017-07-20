@@ -3,12 +3,10 @@ package com.meituan.spring.initbean;
 import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.InitializingBean;
-import org.springframework.stereotype.Component;
 
 /**
  * created by anyanwen on 2017/7/20.
  */
-@Component
 public class InitSequenceBean implements InitializingBean {
 
     private boolean properties;
