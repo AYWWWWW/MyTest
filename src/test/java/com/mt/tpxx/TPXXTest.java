@@ -53,7 +53,7 @@ public class TPXXTest {
         System.out.println("the tp90 of " + size2 + " is " + fixedQueue2.peek() + " and takes " + interval + "ms");
 
         int size3 = 1000000;
-        FixedSizePriorityQueue<Long> fixedQueue3 = new FixedSizePriorityQueue<>(size3 / 10);
+        FixedSizePriorityQueue<Long> fixedQueue3 = new FixedSizePriorityQueue<>(size3 / 1);
         for (int i = 0; i < size3; i++) {
             fixedQueue3.add(modelList.get(i));
         }
