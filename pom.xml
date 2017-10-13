@@ -6,7 +6,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ayw.mytest</groupId>
     <artifactId>MyTest</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>testcases</module>
+    </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -55,6 +59,11 @@
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
         </dependency>
     </dependencies>
 

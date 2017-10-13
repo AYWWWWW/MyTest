@@ -19,5 +19,7 @@ public class MapReference {
 		m1.clear();
 		System.out.println(m2);
 		System.out.println(m3);
+		System.out.println(m2.values().getClass());
+		System.out.println(m2.values().toString());
 	}
 }
